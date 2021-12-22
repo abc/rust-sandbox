@@ -1,4 +1,5 @@
 pub fn run() {
+    println!("FizzBuzz implementation: ");
     for n in 1..101 {
         // If n is divisible by 3 and 5, print FizzBuzz.
         if n % 3 == 0 && n % 5 == 0 {
@@ -17,4 +18,5 @@ pub fn run() {
             println!("{}", n);
         }
     }
+    println!();
 }
